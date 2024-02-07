@@ -1,0 +1,161 @@
+body
+{
+	background-color: #FEEEDC;
+
+}
+
+h1
+{
+	font-size: xx-large;
+	text-align: center;
+	color: #342009;
+}
+
+
+
+.welcomenav
+{
+	font-size: 1.3em;
+
+}
+
+.welcomebanner
+{
+	list-style-type: none;
+	display: flex;
+	background-color: #FEEEDC;
+	justify-content: space-around;
+}
+
+.welcomebanner a /* Liens par défaut (non survolés) */
+{
+    text-decoration: none;
+   color: #FB8604;
+   font-style: normal;
+}
+
+.welcomebanner a:hover /* Apparence au survol des liens */
+{
+    text-decoration: underline;
+   color: #FDB768;
+}
+
+.welcomebanner a:visited /* links visited */
+{
+    text-decoration: underline;
+    color: #975102;
+}
+
+
+.imagelibrary
+{
+text-align: center;
+}
+
+.intro
+{
+	text-align: center;
+}
+
+
+
+.book
+{
+
+	margin: auto 10% auto 10%;
+	border: 1px solid #342009;
+	border-radius: 10px;
+	text-align: justify;
+	padding: 10px;
+	overflow: auto;
+	word-wrap: break-word;
+	margin-bottom: 20px;
+}
+
+
+.book a /* Liens par défaut (non survolés) */
+{
+    text-decoration: none;
+   color: #FB8604;
+   font-style: normal;
+}
+
+.book a:hover /* Apparence au survol des liens */
+{
+    text-decoration: underline;
+   color: #FDB768;
+}
+
+.book a:visited /* links visited */
+{
+    text-decoration: underline;
+    color: #975102;
+}
+
+
+
+
+
+
+.main {
+	height: 200px;
+	padding: 10px;
+}
+
+/* Dropdown Button */
+.dropdownButton {
+    background-color: #FDB768;
+    color: #975102;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    border: 1px solid #342009;
+	border-radius: 10px;
+}
+
+ /* The container <div> - needed to position the dropdown content */
+.dropdown{
+	position:relative;
+	display: inline-block;
+}
+
+  
+  /* Dropdown button on hover & focus */
+  .dropdownButton:hover, .dropdownButton:focus {
+    background-color: #FB8604;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .genres {
+    display: none;
+    position: absolute;
+    background-color: #FDB768;
+	list-style: none;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+   /* Links inside the dropdown */
+  .genres a {
+    color: #975102;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #FDB768;
+}
+
+  
+  /* Change color of dropdown links on hover */
+  .genres a:hover {
+    background-color: #FB8604;
+    color: #342009;
+}
+
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+  

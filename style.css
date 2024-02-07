@@ -1,0 +1,178 @@
+/* Entire website formatting */
+
+body
+{
+	background-color: #FEEEDC;
+
+}
+
+h1
+{
+	font-size: xx-large;
+	text-align: center;
+	color: #342009;
+}
+
+
+a /* Liens par défaut (non survolés) */
+{
+    text-decoration: none;
+   color: #FB8604;
+   font-style: normal;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+    text-decoration: underline;
+   color: #FDB768;
+}
+
+a:visited /* links visited */
+{
+    text-decoration: underline;
+    color: #975102;
+}
+
+
+body.WelcomePage
+{
+	background-image: url("Images/Bibliotheque.jpg");
+    background-size: cover;
+
+}
+
+.welcomenav
+{
+	font-size: 1.3em;
+
+}
+
+.welcomebanner
+{
+	list-style-type: none;
+	display: flex;
+	background-color: #FEEEDC;
+	justify-content: space-around;
+}
+
+
+.homepage
+{
+	width: 30%;
+	min-height: 400px;
+	padding: 20px;
+	margin: 20% auto 0 auto;
+	text-align: justify;
+	border: 1px solid #342009;
+	color: #342009;
+	background-color: #FEEEDC;
+	overflow: auto;
+	word-wrap: break-word;
+
+}
+
+
+.imagelibrary
+{
+text-align: center;
+}
+
+.intro
+{
+	text-align: center;
+}
+
+
+.book
+{
+
+	margin: auto 10% auto 10%;
+	border: 1px solid #342009;
+	border-radius: 10px;
+	text-align: justify;
+	padding: 10px;
+	overflow: auto;
+	word-wrap: break-word;
+	margin-bottom: 20px;
+}
+
+.Authors
+{
+	
+	min-height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+	color: #342009;
+}
+
+.booksbutton button#info {
+	/* Dropdown Button */
+	background-color: #FDB768;
+   color: #975102;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   width: 200px;
+   border: 1px solid #342009;
+ border-radius: 10px;
+}
+
+
+.Auteur
+{	
+
+	width: 15%;
+	margin: 50px;
+	border: 1px solid #342009;
+	border-radius: 10px;
+	text-align: justify;
+	padding: 15px;
+	overflow: auto;
+	word-wrap: break-word;
+}
+
+.ratings
+{
+	font-size: x-large;
+	list-style-type: none;
+	margin: auto;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+/* Likes Button */
+.ratings ul button#increment-btn {
+  background-color: #FDB768;
+   color: #975102;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   width: 200px;
+   border: 1px solid #342009;
+ border-radius: 10px;
+}
+
+@media screen and (max-width: 700px){
+    body{
+        overflow-x: hidden;
+    }
+    .welcomenav {
+        flex-wrap: wrap;
+    }
+    .book {
+        flex-wrap: wrap;
+    }
+}
+
+.main {
+    height: 400px;
+    padding: 10px;
+}
+
+  
